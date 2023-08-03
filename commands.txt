@@ -19,3 +19,5 @@ Branch is a separate copy for you code repository……..
 #git checkout master……….switch from dev to master no need -f -b as master is already there
 Note if we commit any changes while wea re not dev branch this change is not in master branch.
 #git branch…..tell in which branch currently I am ….one with * and green 
+#git clone Repository_URL………..clone repo from github to local machine
+#git remote -v…….check origin is pointing to which URL
