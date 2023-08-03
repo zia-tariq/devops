@@ -21,3 +21,9 @@ Note if we commit any changes while wea re not dev branch this change is not in 
 #git branch…..tell in which branch currently I am ….one with * and green 
 #git clone Repository_URL………..clone repo from github to local machine
 #git remote -v…….check origin is pointing to which URL
+#git push……..used to share local changes to GitHub
+#git pull…….used to get GitHub changes to local for that particular branch
+#git fetch…..used to get  all of branches change to local 
+#git pull origin main ……..get changes from our main branch on GitHub to local
+"origin" in Git refers to the default remote repository from which you cloned your local repository.We can say Git URL is stored in origin variable.
+
