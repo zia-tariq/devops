@@ -1,0 +1,21 @@
+#git init………………initialze a empty git repo
+#git status……check status of git files
+#git add file_name………..add untracked file to staging area
+#git rm –cached file_name…….to untrack/unstage
+#sudo git commit -m “Your_message”..............stage to track 
+
+
+If we delete our file from file system and check git status it will says file is deleted and also give option to restore
+#git restore File_name
+#git log…………………show log history
+If we change our file then again we need to git add and git commit
+By default HEAD is on latest version. HEAD —> master
+#git log –oneline……………..show one line log
+#git log –oneline –pretty……….show one line log with other details
+#git config –global user.name “Zia Tariq”......set username which we use to create profile on git
+#git config –global user.email “zia.tariq@outlook.com”....set email which we use to create profile on git
+Branch is a separate copy for you code repository……..
+#git checkout -b dev……switch from Master branch to dev
+#git checkout master……….switch from dev to master no need -f -b as master is already there
+Note if we commit any changes while wea re not dev branch this change is not in master branch.
+#git branch…..tell in which branch currently I am ….one with * and green 
