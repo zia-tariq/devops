@@ -1,1 +1,9 @@
 Hi this file is for working on git commnads
+
+git init
+git status
+git add file_name
+git commit -m "Your_message"
+git log
+Git restore File_name
+
