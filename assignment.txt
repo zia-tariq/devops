@@ -5,5 +5,8 @@ git status
 git add file_name
 git commit -m "Your_message"
 git log
-Git restore File_name
-
+git restore File_name
+git log --online
+git log --online --pretty
+git config --global user.name ""
+git config --global user.email ""
